@@ -21,8 +21,7 @@ La página incluye las siguientes secciones:
 - Imagen ilustrativa con bordes redondeados.
 
 📷 Captura de pantalla
-Estructura básica de una página HTML
-Imagen 1. Código con estructura básica de una página web en HTML.
+Estructura básica de una página HTML (Código con estructura básica de una página web en HTML.)
 
 📦 Instalación local
 - Clona el repositorio o descarga los archivos.
@@ -30,9 +29,10 @@ Imagen 1. Código con estructura básica de una página web en HTML.
 - Asegúrate de tener todos los archivos (estilos.css, Captura.png, Ejemplo_basico_HTML.html, Ejemplo_basico_HTML.txt, Ejemplo_basico_HTML.rar) en el mismo directorio.
   
 📄 Recursos adicionales
--	Documentación oficial de HTML en W3Schools
-  
+- Documentación oficial de HTML en W3Schools
+
 👤 Autor
 Ing. D. Fernando Huertas M.
 📧 huertas.diego@yahoo.com
+
 
