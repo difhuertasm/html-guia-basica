@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* Cuerpo */
+body {
+  font-family: 'Open Sans', sans-serif; /* Fuente de cuerpo */
+  margin: 0; /* Es útil para separar bloques entre sí */
+  padding: 0; /* Es útil para que el texto o contenido no esté pegado al borde */
+  background-color: #f4f4f4; /* Color de fondo del cuerpo */
+  color: #333; /* Color de la letra del cuerpo */
+}
+
+
+/* Encabezado */
+h1 {
+  background-color: #2c3e50; /* Fuente de fondo encabezado */
+  color: white; /* Color de letra de encabezado */
+  padding: 1rem; /* Equivale a 16px de separación */
+  text-align: center; /*Alineado de la fuente */
+  margin: 0;
+}
+
+
+/* Barra de navegación */
+nav {
+  background-color: #34495e; /* Fuente de fondo barra */
+  display: flex; /* Sus elementos hijos se colocan en fila horizontal por defecto */
+  justify-content: center; /* Justificar texto */
+  gap: 1rem; /* Espacio entre elementos de 16px */
+  padding: 1rem;
+  flex-wrap: wrap;
+  /*flex wrap controla si los elementos hijos de un contenedor flex se mantienen en una sola línea o se envuelven cuando no caben */
+}
+
+/* Enlaces de barra de navegación */
+nav a { 
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+/* Efecto de enlaces */
+nav a:hover { /*Efecto de cuando se pasa el mouse por los titulos de la barra de navegación */
+  background-color: #2c3e50;
+}
+
+
+/* Secciones, items */
+section, h2, p {
+  padding: 1rem 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+
+/* Imágenes */
+img {
+  display: block; /* Crea un salto de línea antes y después de la imagen. */
+  max-width: 100%;
+  height: auto;
+  margin: 1rem auto; /* El navegador calcula automáticamente un margen adecuado para un elemento basándose en el espacio que lo rodea */
+  border-radius: 8px;
+}
+
+
+/* Listas */
+ol, ul, dl {
+  margin-left: 3rem; /* sangria de las listas*/
+}
+
+
+a { /* Enlaces */
+  color: #3498db;
+}
+
+
+a:hover {
+  background-color: #bdc3c7;
+  color: white;
+}
+
+
+/* Pie de página */
+footer {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  font-weight: bold;
+}
+
+
+footer a {
+  margin-left: 1rem;
+  color: #ecf0f1;
+}
+
+
+/* Responsivo */
+@media (max-width: 768px) {
+  section, h2, p {
+    padding: 1rem;
+    max-width: 100%;
+  }
+}

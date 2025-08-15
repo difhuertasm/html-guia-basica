@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Título: Coding</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+  <header>
+    <h1 id="inicio">Aprendiendo HTML</h1>
+    <nav>
+      <a href="#introduccion">Introducción</a>
+      <a href="#etiquetas">Etiquetas</a>
+      <a href="#enlaces">Enlaces</a>
+      <a href="#listas">Listas</a>
+      <a href="#ejemplo">Ejemplo Básico</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="introduccion">
+      <h2>Introducción</h2>
+      <p>El lenguaje <strong><em>HTML</em></strong> es un lenguaje de marcas de hipertexto que define el significado y la estructura del contenido web, pues es la base (esqueleto) de toda página web.</p>
+      <p>Es un lenguaje muy sencillo compuesto de elementos, que se pueden aplicar a piezas de texto para darles un significado diferente en un documento. ¡Veamos más de este lenguaje!</p>
+      <img src="Captura.png" alt="Estructura básica de una página HTML" />
+      <p><em>Imagen 1. Código con estructura básica de una página web en <strong>HTML</strong>.</em></p>
+    </section>
+
+    <section id="etiquetas">
+      <h2>Etiquetas</h2>
+      <p>Las etiquetas <i><b>HTML</b></i> son fragmentos o bloques de código que dan formato, funcionalidad y definen la estructura del contenido de las páginas web. Indican a un navegador la forma adecuada de la información contenida. Pueden influir en su presentación visual, como el tamaño, el color o el formato </p> <p>Las etiquetas en su mayoría están compuestas de una etiqueta de apertura (por ejemplo, <b>&lt;p&gt;</b>) y una etiqueta de cierre (por ejemplo, <b>&lt;p&gt;</b>). El contenido a mostrar se coloca entre estas dos etiquetas. </p> 
+      <p><strong>Ejemplo:</strong> </p> 
+      <ul> <li><b><code>&lt;p&gt;</code></b>: Definen un párrafo.
+      </li> <li><b><code>&lt;h1&gt;</code></b> a <b><code>&lt;h6&gt;</code></b>: Definen encabezados de diferentes niveles y tamaños.
+      </li> <li><b><code>&lt;a&gt;</code></b>: Define un enlace (hipervínculo). 
+      </li> <li><b><code>&lt;img&gt;</code></b>: Inserta una imagen. 
+      </li> <li><b><code>&lt;ul&gt;</code></b> y <b><code>&lt;li&gt;</code></b>: Define listas no ordenadas y elementos de lista, respectivamente.</li> </ul>
+    </section>
+
+    <section id="enlaces">
+      <h2>Enlaces</h2>
+      <p>El elemento HTML <code>&lt;a&gt;</code> (de "anchor") se utiliza para crear hipervínculos. Se define con el atributo <code>href</code>, que indica la URL de destino.</p> 
+      <p>Por otro lado, la etiqueta <code>&lt;link&gt;</code> se usa para enlazar recursos externos como hojas de estilo CSS.</p> 
+      <p><b>Ejemplo de uso:</b> <code>&lt;a href="https://www.ejemplo.com"&gt;Visita mi sitio web&lt;/a&gt;</code></p>
+    </section>
+
+    <section id="listas">
+      <h2>Listas</h2>
+      <p>Las listas son elementos que posibilitan una mejor navegación en las páginas web, ya que permiten agrupar y reorganizar cierto contenido según se requiera. Para los archivos <i><b>HTML</b></i>, las listas se clasifican en ordenadas, desordenadas y descriptivas.</p> 
+
+      <p> Existen varios tipos de listas, se mencionan algunas:</p> 
+
+      <ol> 
+        <li> Listas ordenadas <b>&lt;ol&gt;</b> </li> 
+        <li> Listas desordenadas <b>&lt;ul&gt;</b> </li> 
+        <li> Listas de descripción <b>&lt;dl&gt;</b> </li>
+      </ol> 
+
+      <p> Las listas ordenadas como su nombre lo indica se catalogan de forma ordinal, y en <i><b>HTML</b></i> se programan con el comando "ol". Se pueden ordenar ya sea con números o letras.</p> <p> Por su parte las listas desordenadas usan puntos o cuadrados, y en <i><b>HTML</b></i> se programan con el comando "ul".</p> 
+
+      <p>Algunas características de las listas pueden ser:</p> 
+
+      <ul> 
+        <li> <b>Organización semántica:</b> ayudan a estructurar el contenido de una página web de manera lógica y significativa, facilitando la comprensión tanto para los usuarios como para los motores de búsqueda. </li> 
+        <li> <b>Diversidad de tipos:</b> <i><b>HTML</i></b> ofrece diferentes tipos de listas (ordenadas, desordenadas y de definición) para adaptarse a diversas necesidades de presentación y contenido. </li> 
+        <li> <b>Accesibilidad:</b> Las listas bien marcadas en <i><b>HTML</i></b> son accesibles para personas con discapacidad visual, ya que los lectores de pantalla pueden navegar por ellas fácilmente </li> 
+      </ul>
+
+      <p>Las listas de descripción tienen este estilo:</p> 
+
+      <dl> 
+        <dt><b>Estructura de pares término-definición</b></dt> <dd>Las listas de descripción están diseñadas para presentar términos (etiquetados con <b>&lt;dt&gt;</b>) y sus respectivas definiciones o descripciones (etiquetadas con <b>&lt;dd&gt;</b>). Esto las hace ideales para crear glosarios, diccionarios o cualquier contenido donde se requiera asociar un nombre a una descripción.</dd>
+
+        <dt><b>Uso para glosarios y metadatos:</b></dt> <dd>Las listas de descripción son comúnmente utilizadas para construir glosarios, donde cada término es una palabra o concepto, y su descripción es la definición correspondiente. También son útiles para mostrar metadatos, como pares clave-valor, donde la clave es el término y el valor es la información asociada.</dd>
+
+        <dt><b>Flexibilidad en la presentación:</b></dt> <dd>Aunque la estructura básica es de pares, los elementos <b>&lt;dt&gt;</b> y <b>&lt;dd&gt;</b> pueden repetirse dentro de la misma lista de descripción. Por ejemplo, un término puede tener múltiples definiciones, o varios términos pueden compartir una misma definición. Esto permite adaptar la lista a diferentes necesidades de presentación de contenido.</dd> 
+      </dl> 
+
+      <p>Para más información consulta el siguiente <a target= "_blank" href="https://www.w3schools.com/html/html_intro.asp">enlace</a>.  </p>
+    </section>
+
+    <section id="ejemplo">
+      <h2>Ejemplo Básico</h2>
+      <p>Este es un <a target="_blank" href="Ejemplo_basico_HTML.html">ejemplo</a> básico de la estructura de una página web en HTML.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Autor: Ing. D. Fernando Huertas M.</p>
+    <p>Contacto: <a href="mailto:huertas.diego@yahoo.com">huertas.diego@yahoo.com</a></p>
+    <p>
+      <a target="_blank" href="Ejemplo_basico_HTML.txt">Ver estructura 'Ejemplo Básico'</a>  |
+      <a target="_blank" href="Ejemplo_basico_HTML.rar">Descargar archivo</a>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

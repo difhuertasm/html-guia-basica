@@ -1,0 +1,23 @@
+<!-- 
+Espacio para comentarios
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Página</title>
+</head>
+
+<body>
+  <h1>
+    Título Principal de la Página
+  </h1>
+  <p>
+    Parrafo que debería acompañar el título principal de la página.
+  </p>
+  <script src="script.js"></script>
+</body>
+
+</html>
